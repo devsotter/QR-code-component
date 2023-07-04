@@ -17,6 +17,17 @@
   padding: 20px;
   margin: 20px;
   box-shadow: 15px 15px 15px #ccdaea;
+  opacity: 0;
+  animation: effect 1.5s forwards ease-in-out;
+  transform: translateX(-100px);
+}
+
+@keyframes effect {
+  100% {
+    opacity: 100%;
+    transform: translateX(0);
+  }
+  
 }
 
 .box-content img {
