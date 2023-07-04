@@ -1,0 +1,41 @@
+@import url(reset.css);
+
+.qrcode-bg {
+  background-color: #d5e1ef;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-content {
+  border-radius: 15px;
+  min-width: 350px;
+  max-width: 275px;
+  background-color: #fffffe;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 15px 15px 15px #ccdaea;
+}
+
+.box-content img {
+  border-radius: 10px;
+}
+
+figure figcaption {
+  padding: 20px;
+  text-align: center;
+}
+figcaption h1 {
+  font-size: 23px;
+  font-weight: 700;
+  color: #26344c;
+  margin-top: 10px;
+}
+figcaption p {
+  margin-top: 10px;
+  font-size: 15.5px;
+  font-weight: 400px;
+  color: #90959d;
+}
